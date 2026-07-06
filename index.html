@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRG Smart Store</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-box">
+<img src="https://via.placeholder.com/120x120?text=SRG" alt="Logo" class="logo">
+
+<div>
+<h1>🚩 SRG श्री राम स्पोर्ट्स कलेक्शन 🚩</h1>
+<p>एंड इलेक्ट्रॉनिक्स</p>
+<p>निरंतर सेवा ही हमारा लक्ष्य है</p>
+</div>
+
+</div>
+
+<div class="header-btn">
+
+<a href="tel:9753016116" class="call-btn">
+📞 Call
+</a>
+
+<a href="https://wa.me/919753016116" class="wa-btn">
+💬 WhatsApp
+</a>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h2>Welcome to SRG Smart Store</h2>
+
+<p>
+Sports • Electronics • Home Appliances
+</p>
+
+<input
+type="text"
+id="search"
+placeholder="🔍 Product Search..."
+>
+
+</section>
+
+<h2 class="title">
+🔥 Featured Products
+</h2>
+
+<div class="products" id="products">
+  <!-- Cricket Bat -->
+<div class="product">
+<img src="images/ss-bat.jpg" alt="SS Cricket Bat">
+<h3>🏏 SS Cricket Bat</h3>
+<p>₹2990</p>
+<button onclick="addToCart('SS Cricket Bat',2990)">Add to Cart</button>
+</div>
+
+<!-- DSC Bat -->
+<div class="product">
+<img src="images/dsc-bat.jpg" alt="DSC Cricket Bat">
+<h3>🏏 DSC Cricket Bat</h3>
+<p>₹1100</p>
+<button onclick="addToCart('DSC Cricket Bat',1100)">Add to Cart</button>
+</div>
+
+<!-- Kashmir Willow -->
+<div class="product">
+<img src="images/kashmir-bat.jpg" alt="Kashmir Willow Bat">
+<h3>🏏 Kashmir Willow Bat</h3>
+<p>₹850</p>
+<button onclick="addToCart('Kashmir Willow Bat',850)">Add to Cart</button>
+</div>
+
+<!-- Football -->
+<div class="product">
+<img src="images/football.jpg" alt="Football">
+<h3>⚽ Football</h3>
+<p>₹750</p>
+<button onclick="addToCart('Football',750)">Add to Cart</button>
+</div>
+
+<!-- Volleyball -->
+<div class="product">
+<img src="images/volleyball.jpg" alt="Volleyball">
+<h3>🏐 Volleyball</h3>
+<p>₹780</p>
+<button onclick="addToCart('Volleyball',780)">Add to Cart</button>
+</div>
+
+<!-- Badminton -->
+<div class="product">
+<img src="images/badminton.jpg" alt="Badminton">
+<h3>🏸 Badminton Racket</h3>
+<p>₹260</p>
+<button onclick="addToCart('Badminton Racket',260)">Add to Cart</button>
+</div>
+
+<!-- LED TV -->
+<div class="product">
+<img src="images/tv.jpg" alt="LED TV">
+<h3>📺 LED TV</h3>
+<p>₹7990</p>
+<button onclick="addToCart('LED TV',7990)">Add to Cart</button>
+</div>
+
+<!-- AC -->
+<div class="product">
+<img src="images/ac.jpg" alt="AC">
+<h3>❄️ AC</h3>
+<p>₹29990</p>
+<button onclick="addToCart('AC',29990)">Add to Cart</button>
+</div>
+<!-- Cart -->
+</div>
+
+<div class="cart-box">
+<h2>🛒 Your Cart</h2>
+
+<div id="cart">
+<p>No product added.</p>
+</div>
+
+<button class="order-btn" onclick="sendWhatsAppOrder()">
+📲 Order on WhatsApp
+</button>
+
+</div>
+
+<footer>
+
+<h2>SRG श्री राम स्पोर्ट्स कलेक्शन</h2>
+
+<p>📍 खुड़ाना रोड, बाबा बड़े हनुमान मंदिर के सामने, सौंखर</p>
+
+<p>📞 9753016116</p>
+
+<p>🕘 सुबह 9 बजे से शाम 8 बजे तक</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
